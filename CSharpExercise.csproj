@@ -46,6 +46,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="事件与委托.cs" />
+    <Compile Include="反射与特性.cs" />
     <Compile Include="迭代器.cs" />
   </ItemGroup>
   <ItemGroup>
