@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.33423.256
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpExercise", "CSharpExercise.csproj", "{DDDE6113-1C29-4359-B4F9-D25DFC571BA7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "反射与特性", "..\反射与特性\反射与特性.csproj", "{DD22F7F5-8B4B-4D96-8042-96B6300C715A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EffectiveCSharp", "..\EffectiveCSharp\EffectiveCSharp.csproj", "{DBB07416-BD05-4C9B-A9B8-C1A7FB51CCEC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{DD22F7F5-8B4B-4D96-8042-96B6300C715A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD22F7F5-8B4B-4D96-8042-96B6300C715A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD22F7F5-8B4B-4D96-8042-96B6300C715A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBB07416-BD05-4C9B-A9B8-C1A7FB51CCEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBB07416-BD05-4C9B-A9B8-C1A7FB51CCEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBB07416-BD05-4C9B-A9B8-C1A7FB51CCEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBB07416-BD05-4C9B-A9B8-C1A7FB51CCEC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

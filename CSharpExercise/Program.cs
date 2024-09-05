@@ -10,25 +10,21 @@ namespace CSharpExercise
     {
         static void Main(string[] args)
         {
-            事件与委托调用();
             
+
+
+
             Console.ReadLine();
         }
+    }
 
-        public static void 事件与委托调用()
+    class AAA
+    {
+        public int x;
+        public int y;
+        public AAA() 
         {
-            事件与委托 eventAndDel = new 事件与委托();
-            // 委托
-            GreetingDelegate greetingDelegate = eventAndDel.ChineseGreeting;
-            greetingDelegate += eventAndDel.EnglishGreeting;
-            greetingDelegate -= eventAndDel.EnglishGreeting;
-            eventAndDel.GreetPeople("王嘉！", greetingDelegate);
-
-
-            // 事件
-            eventAndDel.MakeGreetEvet += eventAndDel.ChineseGreeting;
-            eventAndDel.DoSomething("123");
+            x = 11; y = 12;
         }
-
     }
 }
